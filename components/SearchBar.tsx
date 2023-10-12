@@ -53,7 +53,7 @@ const SearchBar = () => {
     }
 
   return (
-    <form className="searchBar" onSubmit={handleSearch} action="">
+    <form className="searchbar" onSubmit={handleSearch} action="">
         <div className="searchbar__item">
             <SearchManufacturer
                 //we pass the manufacturer and setmanufacturer as prompts
